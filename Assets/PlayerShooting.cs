@@ -11,6 +11,7 @@ public class PlayerShooting : MonoBehaviour
     public LayerMask shootingLayer;           // Mihin layeriin pyssy voi vaikuttaa
 
 
+
     void Update()
 
     {
@@ -26,6 +27,7 @@ public class PlayerShooting : MonoBehaviour
     }
 
 
+
     void Shoot()
 
     {
@@ -39,6 +41,7 @@ public class PlayerShooting : MonoBehaviour
             // Debuggausta, piirrell‰‰n drawray, kun osutaan kohteeseen
 
             Debug.DrawRay(fpsCamera.transform.position, fpsCamera.transform.forward * range, Color.red, 2.0f);
+
 
 
             // checkaa jos objekti on sellainen mihin voi osua
@@ -58,6 +61,7 @@ public class PlayerShooting : MonoBehaviour
     }
 
 }
+
 
 
 // t‰ss‰ se interface nyt tehd‰‰n

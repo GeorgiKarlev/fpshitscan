@@ -64,7 +64,9 @@
     <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\CameraLook.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\ThrowsGrenade.cs" />
     <Compile Include="Assets\PlayerShooting.cs" />
+    <Compile Include="Assets\Grenade.cs" />
     <Compile Include="Assets\movement.cs" />
   </ItemGroup>
   <ItemGroup>
